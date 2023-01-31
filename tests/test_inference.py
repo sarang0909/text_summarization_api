@@ -2,7 +2,6 @@
 Module for functional test cases of inference code
 """
 
-from pathlib import Path
 from src.utility.utils import config
 from src.utility import constants
 from src.inference.predictor import Predictor

@@ -3,10 +3,9 @@
 """
 
 import uvicorn
-from fastapi import FastAPI, File
+from fastapi import FastAPI
 from pydantic import BaseModel
 from src.utility.loggers import logger
-from src.utility.utils import get_transcript_text
 from src.inference.predictor_factory import get_predictor
 
 

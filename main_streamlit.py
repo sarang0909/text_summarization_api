@@ -24,17 +24,16 @@ with st.form("my_form"):
         try:
             predictor = get_predictor(summarization_method)
 
-            transcript_text = ""
             if uploaded_file is not None:
                 start = datetime.now()
                 transcript_text = get_transcript_text(uploaded_file)
-                output = predictor.get_model_output(transcript_text)
+                summary_text = predictor.get_model_output(transcript_text)
                 end = datetime.now()
                 # find difference loop start and end time and display
                 td = (end - start).total_seconds()
             st.write("model_selected:", summarization_method)
             st.write("Summarization Code Execution Time in seconds:", td)
-            st.write("model_output:", output)
+            st.write("model_output:", summary_text)
         except Exception as error:
             message = "Error while creating output"
             logger.error(message, str(error))
