@@ -60,7 +60,7 @@ To summarize podcast,I will be using only text features and not audio.
    and get the sentences with those topics as a summary.
 3. Other rules: Include sentences with Person names (they are most likely the speakers of a podcast)    
 
-I found an opensource library<a href=" https://github.com/DerwenAI/pytextrank">pytextrank </a> for above approach using TextRank algorithm where original sentences are kept as it is in a summary.    
+I found an opensource library <a href="https://github.com/DerwenAI/pytextrank"> pytextrank </a> for above approach using TextRank algorithm where original sentences are kept as it is in a summary.    
 
 Ideas considered but not implemented:   
 1. text summary can be converted to audio(voice of a speaker) by using text to audio tools/libraries      
@@ -72,11 +72,9 @@ There are 2 ways to deploy this application.
 1. API using FastAPI.
 2. Streamlit application
 
-### Testing     
-Unit test cases are written   
-
+ 
 ### Deployment 
-Deployment is done locally using docker.   
+Deployment can be done using docker.   
 
 
 ## Code Oraganization   
