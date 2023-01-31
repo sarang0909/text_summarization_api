@@ -1,5 +1,6 @@
 # text_summarization_api :  
 
+[streamlit-main_streamlit-2023-01-30-23-01-77.webm](https://user-images.githubusercontent.com/31824267/215668103-79f5fcc1-8d03-4dfa-bd07-cb4c07833d59.webm)
 
 ## About  
 This is a project developed to create a code template and to understand different text summarization techniques.  
